@@ -14,7 +14,6 @@ call plug#begin('~/.vim/plugged')
 	Plug 'tpope/vim-fugitive'
 	Plug 'williamboman/nvim-lsp-installer'
 	Plug 'glepnir/lspsaga.nvim'
-	Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
 	Plug 'folke/trouble.nvim'
 
 call plug#end()
@@ -27,7 +26,6 @@ source $HOME/.config/nvim/maps.vim
 
 " Load lua plugins config
 luafile $HOME/.config/nvim/lua/lsp_installer_config.lua
-luafile $HOME/.config/nvim/lua/galaxyline_config.lua
 luafile $HOME/.config/nvim/lua/trouble_config.lua
 luafile $HOME/.config/nvim/lua/lspsaga_config.lua
 
