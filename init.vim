@@ -13,7 +13,6 @@ call plug#begin('~/.vim/plugged')
 	Plug 'scrooloose/nerdtree'
 	Plug 'tpope/vim-fugitive'
 	Plug 'williamboman/nvim-lsp-installer'
-	Plug 'glepnir/lspsaga.nvim'
 	Plug 'folke/trouble.nvim'
 	Plug 'morhetz/gruvbox'
 
@@ -28,7 +27,7 @@ source $HOME/.config/nvim/maps.vim
 " Load lua plugins config
 luafile $HOME/.config/nvim/lua/lsp_installer_config.lua
 luafile $HOME/.config/nvim/lua/trouble_config.lua
-luafile $HOME/.config/nvim/lua/lspsaga_config.lua
+luafile $HOME/.config/nvim/lua/lsp_config.lua
 
 " Various config
 

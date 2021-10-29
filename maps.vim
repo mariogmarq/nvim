@@ -10,9 +10,9 @@ noremap <LEADER>fg <CMD>Telescope live_grep<CR>
 noremap <LEADER>tt <CMD>Trouble lsp_document_diagnostics<CR>
 noremap <LEADER>TT <CMD>Trouble lsp_workspace_diagnostics<CR>
 " LspSaga
-noremap <LEADER>ca <CMD>lua require('lspsaga.codeaction').code_action()<CR>
-noremap <LEADER>rn <CMD>lua require('lspsaga.rename').rename()<CR>
-nnoremap <silent> K <cmd>lua require('lspsaga.hover').render_hover_doc()<CR>
+nnoremap K <cmd>lua vim.lsp.buf.hover()<CR>
+nnoremap <LEADER>s <cmd>lua vim.lsp.buf.signature_help()<CR>
+nnoremap <LEADER>ca <cmd>lua vim.lsp.buf.code_action()<CR>
 
 " Various
 noremap <C-s> <CMD>w<CR>
