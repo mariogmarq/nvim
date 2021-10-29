@@ -19,3 +19,9 @@ nnoremap <LEADER>gd <cmd>lua vim.lsp.buf.declaration()<CR>
 noremap <C-s> <CMD>w<CR>
 tnoremap <Esc> <C-\><C-n>
 imap <C-L> <C-\><C-n>
+
+" Tabs
+noremap <LEADER>nt <CMD>tabnew<CR>
+noremap <leader>ct <CMD>tabc<CR>
+noremap <C-]> <CMD>tabnext<CR>
+noremap <C-[> <CMD>tabp<CR>
