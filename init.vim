@@ -16,6 +16,9 @@ call plug#begin('~/.vim/plugged')
 	Plug 'folke/trouble.nvim'
 	Plug 'morhetz/gruvbox'
 	Plug 'townk/vim-autoclose'
+	Plug 'mhinz/vim-signify'
+	Plug 'vim-airline/vim-airline'
+	Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
