@@ -15,6 +15,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'williamboman/nvim-lsp-installer'
 	Plug 'glepnir/lspsaga.nvim'
 	Plug 'folke/trouble.nvim'
+	Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -38,4 +39,4 @@ set nu rnu
 set ruler
 set encoding=utf-8
 
-
+autocmd vimenter * ++nested colorscheme gruvbox
