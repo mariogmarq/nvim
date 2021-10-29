@@ -15,6 +15,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'williamboman/nvim-lsp-installer'
 	Plug 'folke/trouble.nvim'
 	Plug 'morhetz/gruvbox'
+	Plug 'townk/vim-autoclose'
 
 call plug#end()
 
